@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Booper</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=divice-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="option2.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+</head>
+    
+    
+<body>
+    <script src="option2.js"></script>
+    <div class="container bg-1 text-center"> 
+      
+        <h1>bopper</h1>
+        Create a Custom "New Tab" Page 
+    </div>
+
+
+ 
+    
+   <div class="bg-2">
+    <div class="container-fluid bg-3 text-center" id ="boppers">
+         
+    <h3>Choose Text:</h3>
+    <input type="text" id="tbCustomTxt">
+        
+        <h3>Choose speed:</h3>
+
+        <script src="slider.js"></script>
+
+        <input type="range" min=".1" max="2" value=".5" step=".1" id="range" />
+       
+        <h3>Choose your bopper</h3>
+    <form>
+    <div id = "checkboxes">  
+            
+          <label for="dog" class="radio-inline">
+              <img class= "imgs" src="bopper/Chihuahua.png" alt="Chihuahua">
+          <input type="radio" name="bopper" id="Chihuahua.png" value="Chihuahua.png"  checked></label>
+    
+        
+     
+           <label class="radio-inline">
+               <img class= "imgs" src="bopper/gollum.png" alt="Gollum" >
+               <input type="radio" name="bopper" id="gollum.png" value="gollum.png">
+           </label>
+        
+      
+            <label class="radio-inline">
+                <img class= "imgs" src="bopper/tina.gif" alt="tina" >
+                <input type="radio" name="bopper" id="tina.gif" value="tina.gif">
+            </label>
+  
+            
+          
+            <label for="gollum" class="radio-inline"><img class= "imgs" src="bopper/pizza.png" alt="Pizza">
+             <input type="radio"  name="bopper" id="pizza.png" value="pizza.png"></label>
+      
+      
+            <label for="cat" class="radio-inline"><img class= "imgs" src="bopper/cat.png" alt="Cat">
+            <input type="radio" name="bopper" id="cat.png" value= "cat.png"></label>
+     
+           
+
+            <label class="radio-inline"><img class= "imgs" src="bopper/bread.gif" alt="bread">
+            <input type="radio" name="bopper" id="bread.gif" value= "bread.gif"></label>
+           
+ 
+            <label class="radio-inline"><img class= "imgs" src="bopper/kanye.png" alt="kanye">
+            <input type="radio" name="bopper" id="kanye.png" value="kanye.png"></label>
+
+        
+    
+            <label class="radio-inline"><img class= "imgs" src="bopper/money.gif" alt="peach">
+            <input type="radio" name="bopper" id="money.gif" value="money.gif"></label>
+
+           <label class="radio-inline" id="customImg" hidden><img class= "imgs" src="#" id="myImg" alt= "your Image" >
+            <input type="radio" name="bopper" id="custom" value="custom"></label>
+        </div>
+</form>
+        <br>
+        
+        <label class="btn btn-default btn-file">          
+          <span class="glyphicon glyphicon-circle-arrow-down"></span> Upload your Own
+        <input type = 'file' id="files"/> </label>
+
+  
+        <h3>Choose a background</h3>
+       
+    <form>
+        <label class="radio-inline">
+            <img class = "background-img" src="background-1.jpg" id="background-1">
+            <input type="radio" name="background" value="background-1">
+        </label>
+        <label class="radio-inline">
+            <img class = "background-img" src="background-2.jpg" id="background-2"><br>
+            <input type="radio" name="background" value="background-2"></label>
+               <br><br> 
+        <label class="radio-inline">
+            <img class = "background-img" src="background-3.jpg" id="background-3">
+            <input type="radio" name="background" value="background-3"></label>
+        <label class="radio-inline">
+            <img class = "background-img" src="background-4.jpg" id="background-4">
+            <input type="radio" name="background" value="background-4"></label>
+    </form>
+    <br>
+        <img src="#" id="myImgSize" alt= "your Image" hidden>
+    
+       
+   
+    <button id="btSave">Save</button>  
+    </div>
+    
+       </div>
+   
+</body>
+    
+</html>
+
+

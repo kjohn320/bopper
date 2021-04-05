@@ -1,0 +1,71 @@
+.bg-1 {
+color: white;       
+}
+.bg-2{
+    margin: 0;
+    padding-left:20%;
+    padding-right:20%;
+    padding-top: 5%;
+    padding-bottom: 5%
+}
+h1{
+    font-size: 90px;
+}
+ .bg-3{
+    float: none;
+     padding: 20px;
+    background-color: rgba(225, 236, 237, 0.99);
+    opacity:.8;
+
+   -moz-border-radius: 9px;
+    -webkit-border-radius: 8px;
+    border-radius: 10px;
+    -moz-box-shadow: 0 0 18px rgba(0, 0, 0, 0.9);
+    -webkit-box-shadow: 0 0 18px rgba(0, 0, 0, 0.9);
+    -box-shadow: 0 0 18px rgba(0, 0, 0, 0.9);
+
+}
+
+
+body {
+    font: 20px "Montserrat", sans-serif;
+    line-height: 1.8;
+    color: grey;
+    background: url('background-1.jpg') ;   
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    
+}
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+.radio-inline{
+    padding: 15px;
+
+}
+.imgs{
+     width:100px;
+    height:100px; 
+}
+.background-img{
+    Width: 200px;
+    height: 150px
+    
+}
